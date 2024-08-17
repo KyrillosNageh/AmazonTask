@@ -18,11 +18,11 @@ To get a copy of the project, clone the repository using the following command:
 ```bash
 git clone https://github.com/KyrillosNageh/AmazonTask
 
-echo "Navigating to the project directory..."
+"Navigating to the project directory..."
 cd AmazonTask
 
-echo "Running the tests..."
+"Running the tests..."
 mvn test "-Dsurefire.suiteXmlFiles=testng.xml"
 
-echo "Generating and serving the Allure report..."
+"Generating and serving the Allure report..."
 mvn allure:serve
