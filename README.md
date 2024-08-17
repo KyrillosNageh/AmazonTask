@@ -14,15 +14,17 @@ Follow the steps below to clone the repository, execute the tests, and generate 
 ### 1. Clone the Repository
 
 To get a copy of the project, clone the repository using the following command:
-
 ```bash
 git clone https://github.com/KyrillosNageh/AmazonTask
 
 ### 2. Navigate to the Project Directory
+```bash
 cd AmazonTask
 
 ### 3. Run the Tests
+```bash
 mvn test "-Dsurefire.suiteXmlFiles=testng.xml"
 
 ### 4. Generate and Serve the Allure Report
+```bash
 mvn allure:serve
